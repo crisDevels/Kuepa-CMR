@@ -1,0 +1,71 @@
+.block-scroll-lateral-list {
+  height: 100%;
+  width: 90%;
+  overflow-y: scroll; 
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  margin: 0 0 100px 0;
+}
+
+.block-scroll-lateral-list::-webkit-scrollbar, 
+.block-scroll-lateral-list-::-webkit-scrollbar,
+.block-scroll-lateral-list-modal::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 6px;
+}
+
+.block-scroll-lateral-list::-webkit-scrollbar-thumb,
+.block-scroll-lateral-list-::-webkit-scrollbar-thumb,
+.block-scroll-lateral-list-modal::-webkit-scrollbar-thumb {
+  background: #c4c4c4;
+  border-radius: 4px;
+}
+
+.block-scroll-lateral-list::-webkit-scrollbar-thumb:hover,
+.block-scroll-lateral-list-::-webkit-scrollbar-thumb:hover,
+.block-scroll-lateral-list-modal::-webkit-scrollbar-thumb:hover {
+  background:  #c4c4c4;
+}
+
+.container-item-lateral {
+  background: #f2f2f23a;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.socialmedia-icon-flex {
+  top: -3px;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.p-name-list-lateral {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 8px;
+  text-align: center;
+}
+
+@media screen and (max-width: 426px) {
+
+  .block-scroll-lateral-list {
+    height: 100%;
+    width: 90%;
+    overflow-y: scroll; 
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 100px 0;
+  }
+}

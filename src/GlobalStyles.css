@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&display=swap');
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(45deg,#2B2D43, #3A252E);
+  padding: 0;
+  margin: 0;
+}
+
+.flex-components-cmr {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fixed-component {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 100px;
+  background: linear-gradient(45deg,#2B2D43, #3A252E);
+  border-radius: 40px 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+.ul-list-persons {
+  list-style: none;
+  padding: 0;
+}
+
+h3
+h4
+h5
+h6 {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  color: #757575;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 426px) {
+  .fixed-component {
+    display: none;
+  }
+}

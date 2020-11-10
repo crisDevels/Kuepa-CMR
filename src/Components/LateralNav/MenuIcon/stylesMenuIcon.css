@@ -1,0 +1,29 @@
+.button-menu-icon {
+  background: none;
+  border-style: none;
+  width: 100%;
+  outline: none;
+  transition: .4s ease;
+  margin: 10px 0;
+  color: #D1D4E1
+}
+
+.button-menu-icon.active {
+  background: none;
+  border-style: none;
+  width: 100%;
+  outline: none;
+  transition: .4s ease;
+  margin: 10px 0;
+  outline: none;
+  border-left: 4px solid #F26724;
+  color: #F26724;
+}
+
+.button-menu-icon:hover,
+.button-menu-icon:active,
+.button-menu-icon:focus {
+  outline: none;
+  border-left: 4px solid #F26724;
+  color: #F26724;
+}

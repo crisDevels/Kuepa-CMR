@@ -1,0 +1,118 @@
+.block-container-plan {
+  width: 600px;
+  margin: 0 0 0 20px
+}
+
+.flex-title-plan {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 600px;
+}
+
+.title-plan {
+  font-family: 'Lato', sans-serif;
+  color: #2B2D43;
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.button-plan {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: none;
+  border-style: none;
+  color: #2B2D43;
+}
+
+.flex-works-plans {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contianer-item-plan {
+  width: 45%;
+  height: 120px;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 15px;
+  margin: 0 0 10px 0;
+}
+
+.container-gradient-purple {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(#A68BF6, #88B1F9);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-gradient-pink {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(#B9478D, #EB5C7B);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-gradient-blue {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(#0A8596, #68EECD);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.number-total-works {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+.p-subtitle-plan {
+  font-family: 'Lato', sans-serif;
+  color: #2B2D43;
+  font-size: 14px;
+  margin: 0;
+}
+
+.flex-icon-plans {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 769px) {
+  .block-container-plan {
+    width: 80%;
+    margin: 0 0 0 20px;
+  }
+  .flex-title-plan {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .block-container-plan {
+    width: 100%;
+    margin: 0;
+    padding-bottom: 100px;
+  }
+  .flex-title-plan {
+    width: 100%;
+  }
+
+  .contianer-item-plan {
+    width: 100%;
+  }
+}

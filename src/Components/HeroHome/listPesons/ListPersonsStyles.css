@@ -1,0 +1,79 @@
+.container-persons-scroll {
+  height: 300px;
+  width: 500px;
+  overflow-y: scroll; 
+  background: #f2f2f2;
+  border-radius: 15px;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.container-persons-scroll::-webkit-scrollbar, 
+.container-persons-scroll-::-webkit-scrollbar,
+.container-persons-scroll-modal::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 6px;
+}
+
+.container-persons-scroll::-webkit-scrollbar-button {
+  width: 8px;
+  height: 8px;
+}
+
+.container-persons-scroll::-webkit-scrollbar-thumb,
+.container-persons-scroll-::-webkit-scrollbar-thumb,
+.container-persons-scroll-modal::-webkit-scrollbar-thumb {
+  background: #c4c4c4;
+  border-radius: 4px;
+}
+
+.container-persons-scroll::-webkit-scrollbar-thumb:hover,
+.container-persons-scroll-::-webkit-scrollbar-thumb:hover,
+.container-persons-scroll-modal::-webkit-scrollbar-thumb:hover {
+  background:  #c4c4c4;
+}
+
+.block-list-name {
+  width: 90%;
+}
+
+.title-list-persons {
+  font-family: 'Lato', sans-serif;
+  color: #2B2D43;
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.p-action {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  color: #2B2D43;
+  width: 40%;
+}
+
+.flex-person {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: .5px solid #2B2D43;
+}
+
+.icons-list-action {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 20%;
+}
+
+@media screen and (max-width: 769px) {
+  .container-persons-scroll {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .container-persons-scroll {
+    width: 90%;
+  }
+}

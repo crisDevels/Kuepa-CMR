@@ -1,0 +1,33 @@
+.button-menu-icon {
+  background: none;
+  border-style: none;
+  width: 100%;
+  outline: none;
+  transition: .4s ease;
+  margin: 10px 0;
+  color: #D1D4E1
+}
+
+.button-menu-icon:hover {
+  outline: none;
+  border-left: 4px solid #F26724;
+  color: #F26724;
+}
+
+@media screen and (max-width: 426px) {
+  .button-menu-icon {
+    background: none;
+    border-style: none;
+    width: 33%;
+    outline: none;
+    transition: .4s ease;
+    margin: 0;
+    color: #D1D4E1
+  }
+  .button-menu-icon:hover {
+    outline: none;
+    border-left: none;
+    border-bottom: 4px solid #F26724;
+    color: #F26724;
+  }
+}
